@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with Emerald & Coral palette. -->
+    <style name="Base.Theme.EcoTrack" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary branding -->
+        <item name="colorPrimary">@color/brand_emerald</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_emerald_light</item>
+        <item name="colorOnPrimaryContainer">@color/slate_dark</item>
+
+        <!-- Secondary accent -->
+        <item name="colorSecondary">@color/accent_coral</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/accent_coral_light</item>
+
+        <!-- Window background and surfaces -->
+        <item name="android:windowBackground">@color/mist_background</item>
+        <item name="colorSurface">@color/surface_white</item>
+        <item name="colorOnSurface">@color/slate_dark</item>
+        <item name="colorOnSurfaceVariant">@color/slate_secondary</item>
+
+        <!-- Typography colors -->
+        <item name="android:textColorPrimary">@color/slate_dark</item>
+        <item name="android:textColorSecondary">@color/slate_secondary</item>
+    </style>
+
+    <style name="Theme.EcoTrack" parent="Base.Theme.EcoTrack" />
+</resources>

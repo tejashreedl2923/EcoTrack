@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Emerald Palette -->
+    <color name="brand_emerald">#0D9488</color>
+    <color name="brand_emerald_dark">#0F766E</color>
+    <color name="brand_emerald_light">#CCFBF1</color>
+    <color name="brand_mint">#059669</color>
+
+    <!-- Accent Coral & Electric Cyan -->
+    <color name="accent_coral">#FF6B4A</color>
+    <color name="accent_coral_light">#FFEDD5</color>
+    <color name="electric_cyan">#06B6D4</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="mist_background">#F2FBF7</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="card_border_emerald">#D1FAE5</color>
+    <color name="progress_bg_teal">#E2E8F0</color>
+
+    <!-- Typography Slate Colors -->
+    <color name="slate_dark">#0F172A</color>
+    <color name="slate_secondary">#475569</color>
+    <color name="slate_muted">#94A3B8</color>
+
+    <!-- Status & Alerts -->
+    <color name="goal_amber_bg">#FFFBEB</color>
+    <color name="goal_amber_border">#FDE68A</color>
+    <color name="goal_amber_text">#D97706</color>
+    <color name="danger_red">#EF4444</color>
+    <color name="danger_light">#FEE2E2</color>
+
+    <!-- Standard system colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

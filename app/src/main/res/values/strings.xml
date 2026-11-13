@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">EcoTrack</string>
+    <string name="app_subtitle">Smart Water &amp; Location Tracker</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Hydration Dashboard</string>
+    <string name="today_consumption">Today\'s Consumption</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="daily_goal_sub_format">/ %1$d ml Goal</string>
+    <string name="amount_ml_format">%1$d ml</string>
+    <string name="remaining_water">Remaining</string>
+    <string name="progress_label">Goal Progress</string>
+    <string name="goal_achieved">🎉 Goal Achieved! Great job staying hydrated!</string>
+    <string name="quick_add_title">Quick Add Consumption</string>
+    <string name="unit_ml">ml</string>
+    <string name="btn_100ml">+100 ml</string>
+    <string name="btn_250ml">+250 ml</string>
+    <string name="btn_500ml">+500 ml</string>
+    <string name="btn_750ml">+750 ml</string>
+    <string name="nav_add_water">Add Water</string>
+    <string name="nav_history">History</string>
+    <string name="nav_map">Location Map</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Add Water Screen -->
+    <string name="add_water_title">Record Water Intake</string>
+    <string name="label_enter_amount">Enter Water Amount (ml)</string>
+    <string name="hint_amount">e.g. 350</string>
+    <string name="label_quick_presets">Or choose a preset amount:</string>
+    <string name="label_location_status">Location Status:</string>
+    <string name="location_fetching">Fetching current location…</string>
+    <string name="location_captured">Location Captured</string>
+    <string name="location_unavailable">Location unavailable (saved without coordinates)</string>
+    <string name="btn_save_water">Save Entry</string>
+    <string name="msg_entry_saved">Water entry saved successfully!</string>
+    <string name="msg_invalid_amount">Please enter a valid water quantity in ml.</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Water Consumption History</string>
+    <string name="summary_total_entries">Total Records</string>
+    <string name="summary_total_consumed">Total Volume</string>
+    <string name="empty_history">No water records found yet.\nStart logging your hydration today!</string>
+    <string name="delete_entry_confirm">Are you sure you want to delete this water entry?</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="msg_entry_deleted">Entry deleted successfully.</string>
+
+    <!-- Map Screen -->
+    <string name="map_title">Consumption Locations</string>
+    <string name="map_summary_locations">Recorded Locations</string>
+    <string name="map_no_locations">No saved locations found for water entries.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Application Settings</string>
+    <string name="label_set_daily_goal">Daily Water Goal (ml)</string>
+    <string name="hint_daily_goal">e.g. 2000</string>
+    <string name="btn_save_goal">Save Goal</string>
+    <string name="msg_goal_updated">Daily goal updated to %1$d ml!</string>
+    <string name="label_reset_data">Danger Zone</string>
+    <string name="btn_reset_history">Reset Water History</string>
+    <string name="confirm_reset_title">Reset Water History?</string>
+    <string name="confirm_reset_msg">This action will permanently delete all stored water consumption records. Do you want to proceed?</string>
+    <string name="msg_history_reset">All water history has been reset.</string>
+    <string name="about_title">About EcoTrack</string>
+    <string name="about_desc">EcoTrack is an MCA project designed for smart hydration monitoring and geographic location logging built with Kotlin, SQLite, and Google Location Services.</string>
+    <string name="version_info">Version 1.0.0</string>
+
+    <!-- General -->
+    <string name="permission_location_rationale">Location permission is required to save where you consume water on Google Maps.</string>
+</resources>
